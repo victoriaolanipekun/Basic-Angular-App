@@ -37,5 +37,22 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color: #ffffff;
+    font-weight: 700;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      color: #3f51b6;
+      background-color: #ffffff;
+      border: 1px solid #3f51b6;
+    }
   }
+}
+
+.logo {
+  margin-left: 10px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
 }
